@@ -9,12 +9,14 @@
     "@sailshq/lodash": "^3.10.3",
     "@sailshq/socket.io-redis": "^5.2.0",
     "bcrypt": "^5.1.0",
+    "cookie-session": "^2.0.0",
     "grunt": "1.0.4",
     "sails": "^1.5.4",
     "sails-hook-grunt": "^5.0.0",
     "sails-hook-orm": "^4.0.0",
     "sails-hook-sockets": "^2.0.0",
-    "sails-mongo": "^2.0.1"
+    "sails-mongo": "^2.0.1",
+    "skipper": "^0.9.3"
   },
   "devDependencies": {
     "eslint": "5.16.0"
