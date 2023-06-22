@@ -50,8 +50,8 @@ module.exports.datastores = {
     ***************************************************************************/
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
-    adapter: 'sails-mongo',
-    url: 'mongodb://kevin:Sc9ZJQYXsNFtq1AV@ac-3hkowtl-shard-00-00.mztoijr.mongodb.net:27017,ac-3hkowtl-shard-00-01.mztoijr.mongodb.net:27017,ac-3hkowtl-shard-00-02.mztoijr.mongodb.net:27017/?ssl=true&replicaSet=atlas-3ypj58-shard-0&authSource=admin&retryWrites=true&w=majority',
+    // adapter: 'sails-mongo',
+    // url: 'mongodb://kevin:Sc9ZJQYXsNFtq1AV@ac-3hkowtl-shard-00-00.mztoijr.mongodb.net:27017,ac-3hkowtl-shard-00-01.mztoijr.mongodb.net:27017,ac-3hkowtl-shard-00-02.mztoijr.mongodb.net:27017/?ssl=true&replicaSet=atlas-3ypj58-shard-0&authSource=admin&retryWrites=true&w=majority',
 
   },
 
