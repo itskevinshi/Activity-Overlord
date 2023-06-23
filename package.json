@@ -12,6 +12,7 @@
     "cookie-session": "^2.0.0",
     "dotenv": "^16.3.1",
     "grunt": "1.0.4",
+    "mongodb": "^2.2.12",
     "sails": "^1.5.4",
     "sails-hook-grunt": "^5.0.0",
     "sails-hook-orm": "^4.0.0",
