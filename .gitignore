@@ -116,6 +116,7 @@ node_modules
 
 *~
 *#
+.env
 .DS_STORE
 .netbeans
 nbproject
@@ -131,5 +132,4 @@ lib-cov
 *.log
 *.out
 *.pid
-.env
 
