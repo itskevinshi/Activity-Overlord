@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 /**
  * Seed Function
  * (sails.config.bootstrap)
