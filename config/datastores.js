@@ -34,25 +34,19 @@ module.exports.datastores = {
 
   default: {
 
-    /***************************************************************************
-    *                                                                          *
-    * Want to use a different database during development?                     *
-    *                                                                          *
-    * 1. Choose an adapter:                                                    *
-    *    https://sailsjs.com/plugins/databases                                 *
-    *                                                                          *
-    * 2. Install it as a dependency of your Sails app.                         *
-    *    (For example:  npm install sails-mysql --save)                        *
-    *                                                                          *
-    * 3. Then pass it in, along with a connection URL.                         *
-    *    (See https://sailsjs.com/config/datastores for help.)                 *
-    *                                                                          *
-    ***************************************************************************/
-    // adapter: 'sails-mysql',
-    // url: 'mysql://user:password@host:port/database',
-    adapter: 'sails-mongo',
-    url: process.env.MONGODB_URL,
-  },
+    // adapter: 'sails-mongo',
+    // host: '127.0.0.1',
+    // port: '27017',
+    // user: 'render',
+    // password: 'G6dTYoIBKE07hc9L',
+    // database: 'activityOverlord'
 
+    adapter: 'sails-mongo',
+    url: 'mongodb://render:G6dTYoIBKE07hc9L@ac-3hkowtl-shard-00-00.mztoijr.mongodb.net:27017,ac-3hkowtl-shard-00-01.mztoijr.mongodb.net:27017,ac-3hkowtl-shard-00-02.mztoijr.mongodb.net:27017/?ssl=true&replicaSet=atlas-3ypj58-shard-0&authSource=admin&retryWrites=true&w=majority',
+    ssl: true,
+    replicaSet:'DEVSpeeder-shard-0',
+    authSource:'admin',
+    retryWrites: true
+},
 
 };
