@@ -17,9 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
           displayFlashActivity(event);
           UserIndexPage.destroyUser(event.id);
         } else if (event.action === ' has been created.') {
-          // Handle user creation
           console.log('User created:', event);
-          //UserIndexPage.addUser(event);
         } else if (event.action === ' has been updated.') {
           console.log('User updated:', event);
           UserIndexPage.updateUser(event);

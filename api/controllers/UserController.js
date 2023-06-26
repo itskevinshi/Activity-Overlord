@@ -15,7 +15,6 @@ module.exports = {
       const user = await User.create(req.allParams()).fetch();
       req.session.authenticated = true;
       req.session.User = user;
-      //await User.subscribe(req, user.id);
       await User.update(user.id).set({ online: true });
       const updatedUser = await User.findOne(user.id);
       console.log(updatedUser.id);
