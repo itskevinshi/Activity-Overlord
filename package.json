@@ -12,12 +12,13 @@
     "cookie-session": "^2.0.0",
     "dotenv": "^16.3.1",
     "grunt": "1.0.4",
-    "mongodb": "^2.2.12",
+    "mongodb": "^2.2.36",
     "sails": "^1.5.4",
     "sails-hook-grunt": "^5.0.0",
     "sails-hook-orm": "^4.0.0",
     "sails-hook-sockets": "^2.0.0",
     "sails-mongo": "^2.0.1",
+    "sails-mongo-cloud": "^3.0.2",
     "skipper": "^0.9.3"
   },
   "devDependencies": {
